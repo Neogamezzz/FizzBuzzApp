@@ -20,7 +20,7 @@ namespace FizzBuzzApp
             }
             else
             {
-                Console.WriteLine("Your number must be divisible by 3 or 5 without a remainder.");
+                Console.WriteLine($"Your number must be divisible by 3 or 5 without a remainder. You entered the number {number}");
             }
         }
     }
